@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+<link rel="stylesheet" href="mysheet.css">
     <meta charset="utf-8">
     <title>Form</title>
+
   </head>
   <body>
-    <br>
-    <br>
 
-<h4>Kindly Fill The Form Below</h4>
-    <form class="" action="mailto:ridwan.rede02@gmail.com" method="post" enctype="text/plain">
-      <label for="">Your Name :</label>
-      <input type="text" name="Contact Name" value=""><br>
-    <br>  <label for="">Your Email :</label>
+  <div class="form">
+    <h4 class = 'title'>Kindly Fill The Form Below</h4>
+    <form action="mailto:ridwan.rede02@gmail.com" method="post" enctype="text/plain">
+<div class="name">
+
+  <label>Your Name :</label>
+<input type="text" name="Contact Name" value="">
+</div><label >Your Email :</label>
      <input type="email" name="Email" value=""><br>
-      <br><label for="">Message :</label><br><br>
-      <textarea name="Message" rows="10" cols="80"></textarea><br><br>
-      <input type="submit" name="" value="Send">
+      <textarea class="box" name="Message" rows="10" cols="80" placeholder="Type Your Message..."></textarea><br>
+      <input type="submit" class="btn" name="" value="Send">
     </form>
+</div>
+
+
+  <div class="footer form-footer">
+  <p class="footer-text">Ⓒ 2022 Ridwan Abdulwaheed @ RacoolStudio</p>
+</div>
   </body>
 </html>
