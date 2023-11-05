@@ -130,11 +130,24 @@ float:left;
 margin-right:5%;
 margin-left:3%
 }
+
 .flutter:hover{
 background-color:#ffffff;
     opacity: .4;
     cursor: pointer;
 }
+
+.django {
+  float: right;
+  width: 15%;
+  margin-right: 15%;
+}
+.django:hover {
+  background-color: #ffffff;
+  opacity: .4;
+  cursor: pointer;
+}
+
 .skill-title-left{
 text-align:left;
 margin-left:20%;
@@ -282,4 +295,7 @@ background-color:#ffffff;
     opacity: .4;
     box-shadow:  0 0 0 10px  #ffffff;
     cursor: pointer;
+}
+.download{
+  text-align: center;
 }
